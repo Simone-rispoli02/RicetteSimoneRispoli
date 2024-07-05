@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    width: 100vw;
+    border-bottom: 2px solid gray;
+    position: fixed;
+    margin: 0px;
+    list-style: none;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+    align-items: center;
+    
+    
+}
+.list{
+    padding-left: 100px;
+    
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_4OnGtJdh5BFRXDc2mAylKIk_35_fSEp_7Q&s);
+}
+.logo{
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+header{
+    padding-top: 100px;
+}
+
+.title{
+    display: flex;
+    height: 400px;
+    width: 95vw;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.fritto{
+    width: 400px;
+    height: 300px;
+}
+
+
+.vitello{
+    width: 400px;
+}
+.bonet{
+    width: 400px;
+    height:300px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+    
+@media screen and (max-width: 600px;) and (min-width: 300px;) {
+    
+    
+     
+}
